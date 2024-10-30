@@ -29,7 +29,7 @@ export const DragAndDrop: FC<DragAndDropProps> = ({
         event.preventDefault()
         const files = [...event.dataTransfer.files]
         const filesFormData = new FormData()
-        files.forEach((file) => filesFormData.append(file.name, file))
+        files.forEach((file) => filesFormData.append('files', file))
         setDrag(false)
         onChange(filesFormData)
     }
