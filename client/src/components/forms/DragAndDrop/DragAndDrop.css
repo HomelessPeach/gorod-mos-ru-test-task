@@ -1,0 +1,52 @@
+.drag-and-drop-container {
+    width: 100%;
+    height: 100%;
+}
+
+.drag-and-drop-container {
+    width: 100%;
+    height: 150px;
+}
+
+.drag-area, .drop-area, .loader-area {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #e4edfd;
+    border-radius: 7px;
+}
+
+.text-block {
+    font-size: 20px;
+    user-select: none;
+    color: #4378ff;
+    padding: 20px;
+}
+
+.drag-area {
+    border: 3px solid #a4bdff;
+}
+
+.drop-area {
+    border: 3px dashed #a4bdff;
+}
+
+.loader-area {
+    background-color: #e0e0e0;
+    border: 3px solid #989898;
+}
+
+.drag-input {
+    opacity: 0.0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height:100%;
+}

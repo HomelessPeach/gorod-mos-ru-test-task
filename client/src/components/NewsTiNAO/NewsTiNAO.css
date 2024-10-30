@@ -1,0 +1,35 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.news-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.news-title {
+    color: #000000;
+    font-size: 25px;
+}
+
+.news-description {
+    color: #818181;
+    font-size: 17px;
+}
+
+.news-description > a{
+    color: #4378ff;
+    text-decoration: none;
+}
+
+.news-description > ul {
+    margin: 0 0 0 15px;
+}

@@ -1,0 +1,26 @@
+.comparative-statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.comparative-statistic-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.comparative-statistic-title {
+    color: #000000;
+    font-size: 25px;
+}
+
+.comparative-statistic-description {
+    color: #818181;
+    font-size: 17px;
+}
